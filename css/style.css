@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&family=Lobster&display=swap');
+
+/*font-family: 'DM Sans', sans-serif;
+font-family: 'Lobster', cursive;*/
+header {
+    background-image:url(img/339410.jpg);
+    height: 900px;
+}
+
+nav img {
+    width: 80px;
+}
+
+.nav-div {
+    margin-inline: 3rem;
+}
+
+.info-nav {
+    display: flex;
+    gap: 60px;
+}
+
+nav .info-nav a {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .5s;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.section-top{
+    margin: 5rem auto;
+    width: 800px;
+    text-align: center;
+}
+
+.section-top small {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.section-top h2 {
+    font-size: 35px;
+    margin-block: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.section-top p {
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.section-delivery{
+    display: flex;
+    background-color: rgba(159, 18, 18, 0.795);
+}
+
+.section-delivery .divisor1 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.section-delivery .divisor1 .delivery h2 {
+    font-size: 70px;
+    margin-block: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.section-delivery .divisor1 .delivery span {
+    font-size: 60px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+.divisor1 .delivery small {
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+
+.section-delivery .divisor1 button {
+    width: 120px;
+    height: 60px;
+    border-radius: 15%;
+    background-color: transparent;
+    font-weight: 700;
+    *font-family: 'DM Sans', sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: .5s;
+    margin-top: 5rem;
+}
+
+.section-delivery .divisor1 button:hover{
+    background-color:#fff ;
+    color: rgba(159, 18, 18, 0.795);
+    border: 1px solid rgba(159, 18, 18, 0.795);
+}
+
+.section-delivery img{
+    width:50%;
+}
+
+.section-carousel{
+    margin-block: 10rem;
+}
+
+.section-carousel .carousel-swiper h2{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.paoimg{
+    width: 100px;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.swiper-wrapper img {
+    width: 100%;
+    height: 900px;
+}
+
+.section-cards {
+    text-align: center;
+    margin: auto;
+}
+
+.section-cards h2 {
+    font-size: 50px;
+    margin-block: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex ;
+    justify-content:center;
+    margin-block: 10rem;
+}
+
+.cards img {
+    height: 17rem;
+}
+
+.section-historia {
+    margin-block: 15rem;
+}
+
+.historias {
+    display: flex;
+    justify-content: space-evenly;  
+    flex-direction: row-reverse;
+    align-items: center; 
+}
+
+.historias img {
+    width: 30rem;
+}
+
+.historia{
+    width: 45rem;
+
+}
+
+.historia h2 {
+    font-size: 50px;
+    margin-block: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+.historia p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.section-galeria{
+   text-align: center;
+   margin-block: 15rem;
+}
+
+.section-galeria h2{
+    font-size: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.galerias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: auto;
+    width: 80rem;
+    
+}
+
+.galerias img{
+    width: 25rem;
+    margin: 10px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(159, 18, 18, 0.795); 
+    height: 10rem;
+}
+
+footer .footer-info a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    margin-block: 15px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+footer .footer-info p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+footer .footer-info span{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: none;
+}
+
+footer .social {
+    grid-auto-flow: column;
+    width: fit-content;
+}
+
+footer .social img {
+    width: unset;
+}
+
+footer .social img{
+    transition: .3s;
+    margin-inline: 2px;
+}
+
+footer .social img:hover{
+    transform: translateY(-15px);
+}
+
+@media (max-width:1024px){
+    .section-galeria .galerias {
+        width: unset;
+    }
+}
+
+@media (max-width:768px){
+   .section-top{
+    width: unset;
+   }
+
+   .swiper img {
+    height: 400px;
+   }
+
+  .section-historia .historias img {
+    display: none;
+  }
+
+  .section-delivery .divisor1{
+    width: unset;
+  }
+
+  .section-delivery img {
+    display: none;
+}
+
+
+}
+
+@media (max-width:500px){
+
+    .section-cards .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    footer{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .section-galeria{
+        margin-block: 5rem;
+    }
+
+    .section-galeria .galerias img {
+        width: 20rem;
+    }
+    
+}
